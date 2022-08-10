@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8"> <!-- entrar na linguagem unicode -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="doc.css" media="screen">
+        <title>Calculadora de Bhaskara</title>
+    </head>
+    
+    <body>
+        
+        <div>
+            <h1 id="titulo">Hello World</h1>
+            <p id="subtitulo">Bem-vindo à calculadora de Bhaskara ヾ(≧▽≦*)o</p>
+            <br>
+        </div>
+        
+        <form>
+            <fieldset class="info">
+                <div class="campos">
+                    <label for="a"><strong>Insira o valor de <i>a</i></strong></label>
+                    <input type="number" name="a" id="a" required>
+                </div>
+                <div class="campos">
+                    <label for="b"><strong>Insira o valor de <i>b</i></strong></label>
+                    <input type="number" name="b" id="b" required>
+                </div>
+                <div class="campos">
+                    <label for="c"><strong>Insira o valor de <i>c</i></strong></label>
+                    <input type="number" name="c" id="c" required>
+                </div>
+            </fieldset>
+            
+            <div>
+                <button class="botao" type="submit" onsubmit="">Fazer Bhaskara!</button>
+            </div>
+        </form>
+        
+    </body>
+</html>
